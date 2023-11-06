@@ -1,28 +1,27 @@
-@charset "utf-8";
-/* CSS Document */
 body {
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
+    margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
+.container {
+    max-width: 80%; /* Adjust the percentage as per your preference */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
 header {
-  background-color: #333;
-  color: #fff;
-  height: 50px; /* Change the height to your desired value */
-  display: flex;
-  align-items: center; /* Vertically center the content */
-  justify-content: center; /* Horizontally center the content */
-  position: relative;
-  transition: top 0.3s;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: top 0.3s;
 }
 
 .sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
