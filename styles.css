@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     overflow-y: scroll; /* Always show a vertical scrollbar */
-    background-color: #E0E0E0;
 }
 
 .container {
@@ -12,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #0D0C1D;
+    background-color: #161B33;
     color: #fff;
     height: 70px; /* Adjust the height to your desired value */
     display: flex;
@@ -20,6 +19,8 @@ header {
     justify-content: center;
     position: relative;
     transition: top 0.3s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .sticky {
