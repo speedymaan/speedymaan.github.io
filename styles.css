@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 80%; /* Adjust the percentage as per your preference */
+    max-width: 90%; /* Adjust the percentage as per your preference */
     margin: 0 auto; /* Center the container horizontally */
 }
 
@@ -40,4 +40,9 @@ h1, h2, h3 {
 
 p, a {
   font-family: 'Noto Serif';font-size: 18px;
+}
+
+img {
+  width: auto;
+  max-height: 250px;
 }
