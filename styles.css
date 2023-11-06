@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     overflow-y: scroll; /* Always show a vertical scrollbar */
-/*    font-family: 'Roboto', sans-serif;*/
+    background-color: ##E0E0E0;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0D0C1D;
     color: #fff;
     height: 70px; /* Adjust the height to your desired value */
     display: flex;
