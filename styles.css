@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     overflow-y: scroll; /* Always show a vertical scrollbar */
-    background-color: ##E0E0E0;
+    background-color: #E0E0E0;
 }
 
 .container {
