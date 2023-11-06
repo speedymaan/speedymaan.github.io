@@ -42,7 +42,15 @@ p, a {
   font-family: 'Noto Serif';font-size: 18px;
 }
 
+/* Base styles for larger screens */
 img {
-  max-width: 30%;
-  height: auto;
+    max-width: 30%;
+    height: auto;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    img {
+        max-width: 80%; /* Adjust this percentage as needed for smaller screens */
+    }
 }
