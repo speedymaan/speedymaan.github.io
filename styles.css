@@ -54,3 +54,36 @@ img {
         max-width: 80%; /* Adjust this percentage as needed for smaller screens */
     }
 }
+
+
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
