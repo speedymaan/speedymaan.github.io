@@ -118,10 +118,3 @@ nav a {
   background-position-x: right, left;
   background-repeat: no-repeat, repeat-x;
 }
-
-body {
-  height: 100vh;
-  margin: 0;
-  display: grid;
-  place-items: center;
-}
