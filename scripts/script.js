@@ -1,3 +1,13 @@
+let timeoutId;
+
+window.onscroll = function () {
+  clearTimeout(timeoutId); // Clear any pending executions
+
+  timeoutId = setTimeout(() => {
+    makeHeaderSticky();
+  }, 50); // Adjust the delay (in milliseconds) as needed
+};
+
 window.onscroll = function () {
   makeHeaderSticky();
 };
