@@ -111,3 +111,7 @@ nav a {
 nav a:focus {
   outline: 2px dotted #333;
 }
+
+header nav a:hover {
+  color: red; /* Example color change */
+}
