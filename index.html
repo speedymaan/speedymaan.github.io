@@ -318,5 +318,16 @@
     </div>
     <script src="scripts/map.js"></script>
     <script src="scripts/script.js" async defer></script>
+    <script>
+      var map = L.map("map").setView([51.505, -0.09], 13);
+
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution:
+          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://www.tinyworldmap.com">tinyworldmap</a>',
+      }).addTo(map);
+
+      new L.GridLayer.TinyWorld().addTo(map);
+    </script>
   </body>
 </html>
