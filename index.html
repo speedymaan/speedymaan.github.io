@@ -36,23 +36,9 @@
     <meta name="description" content="boilerplate test" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <!-- MAP TEST -->
-    <script src="https://tinyworldmap.com/dist/tiny-world-all-10000.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
-    />
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
-    <!-- MAP TEST -->
     <title>Home</title>
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
     <header class="sticky">
       <div class="header-buttons">
         <nav>
@@ -66,7 +52,19 @@
     </header>
     <div class="container">
       <h1>HOME</h1>
-      <div id="map" style="height: 400px"></div>
+      <p align="center">
+        <iframe
+          width="80%"
+          height="400"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=19.070417582988743%2C47.52851217337617%2C19.074896872043613%2C47.53009504201023&amp;layer=mapnik"
+          style="border: 1px solid black"
+        ></iframe
+        ><br /><small
+          ><a href="https://www.openstreetmap.org/#map=19/47.52930/19.07266"
+            >View Larger Map</a
+          ></small
+        >
+      </p>
       <p align="left">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et nunc
         libero. Nunc accumsan turpis quis pellentesque semper. Praesent et nulla
@@ -316,18 +314,6 @@
         fermentum quis sit amet leo.
       </p>
     </div>
-    <script src="scripts/map.js"></script>
     <script src="scripts/script.js" async defer></script>
-    <script>
-      var map = L.map("map").setView([51.505, -0.09], 13);
-
-      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="https://www.tinyworldmap.com">tinyworldmap</a>',
-      }).addTo(map);
-
-      new L.GridLayer.TinyWorld().addTo(map);
-    </script>
   </body>
 </html>
